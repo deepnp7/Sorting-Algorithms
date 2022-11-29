@@ -31,7 +31,7 @@ int main()
     printf("UNSORTED ARRAY : ");
      printArray(A,n);
      bubbleSort(A,n);
-
+     printf("SORTED ARRAY : ");
      printArray(A,n);
     return 0;
 }
