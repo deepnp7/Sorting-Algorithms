@@ -62,7 +62,7 @@ void mergeSort(int A[], int low, int high){
 
 int main()
 {
-    // int A[] = {9, 14, 4, 8, 7, 5, 6};
+   
     int A[] = {9, 1, 4, 14, 4, 15, 6};
     int n = 7;
     printArray(A, n);
