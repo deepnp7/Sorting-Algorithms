@@ -23,7 +23,7 @@ void quickSort(int arr[], int left, int right) {
         }
     }
 
-    
+    // recursion
     if (left < j) {
         quickSort(arr, left, j);
     }
