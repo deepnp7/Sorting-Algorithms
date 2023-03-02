@@ -5,7 +5,7 @@ void quickSort(int arr[], int left, int right) {
     int temp;
     int pivot = arr[(left + right) / 2];
 
-    // partition
+    
     while (i <= j) {
         while (arr[i] < pivot) {
             i++;
