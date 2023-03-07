@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 void cycleSort(int arr[], int n) {
