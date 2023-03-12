@@ -2,7 +2,8 @@
 
 void cycleSort(int arr[], int n) 
 {
-    for (int cycleStart = 0; cycleStart < n-1; cycleStart++) {
+    for (int cycleStart = 0; cycleStart < n-1; cycleStart++)
+    {
         int item = arr[cycleStart];
         int pos = cycleStart;
         for (int i = cycleStart+1; i < n; i++) {
