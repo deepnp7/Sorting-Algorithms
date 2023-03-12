@@ -6,7 +6,8 @@ void cycleSort(int arr[], int n)
     {
         int item = arr[cycleStart];
         int pos = cycleStart;
-        for (int i = cycleStart+1; i < n; i++) {
+        for (int i = cycleStart+1; i < n; i++)
+        {
             if (arr[i] < item) {
                 pos++;
             }
