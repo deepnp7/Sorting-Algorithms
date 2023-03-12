@@ -11,7 +11,8 @@ void cycleSort(int arr[], int n)
                 pos++;
             }
         }
-        if (pos == cycleStart) {
+        if (pos == cycleStart) 
+        {
             continue;
         }
         while (item == arr[pos]) {
