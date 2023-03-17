@@ -1,4 +1,4 @@
-#include<stdio.h>
+
 #include <stdio.h>
 
 void gnome_sort(int arr[], int n) {
