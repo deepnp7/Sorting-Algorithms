@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 // function to perform counting sort
-void counting_sort(int array[], int size) {
+void counting_sort(int array[], int size) 
+{
   // find the maximum element in the array
   int max = array[0];
   for (int i = 1; i < size; i++) {
