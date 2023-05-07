@@ -25,7 +25,7 @@ void cocktail_sort(int arr[], int n) {
                 swapped = true;
             }
         }
-        ++start;
+       ++start;
     }
 }
 
