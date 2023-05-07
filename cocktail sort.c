@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdbool.h>
-
 void cocktail_sort(int arr[], int n) {
     bool swapped = true;
     int start = 0, end = n - 1;
