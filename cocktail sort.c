@@ -14,7 +14,6 @@ void cocktail_sort(int arr[], int n) {
                 swapped = true;
             }
         }
-
         if (!swapped) break;
         swapped = false;
         --end;
