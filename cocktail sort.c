@@ -32,7 +32,6 @@ void cocktail_sort(int arr[], int n) {
 int main() {
     int arr[] = {5, 2, 6, 1, 3, 9, 4, 8, 7};
     int n = sizeof(arr) / sizeof(arr[0]);
-
     cocktail_sort(arr, n);
 
     printf("Sorted array: ");
