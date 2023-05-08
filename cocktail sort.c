@@ -8,7 +8,8 @@ void cocktail_sort(int arr[], int n)
       while (swapped) 
       {
         swapped = false;
-        for (int i = start; i < end; ++i) {
+        for (int i = start; i < end; ++i) 
+        {
             if (arr[i] > arr[i + 1]) {
                 int temp = arr[i];
                 arr[i] = arr[i + 1];
