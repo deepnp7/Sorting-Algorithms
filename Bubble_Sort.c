@@ -1,37 +1,37 @@
-#include<stdio.h>
+#include <iostream>
 
-void bubbleSort(int* A,int n)
-{
-   for (int i = 0; i <=n; i++)
-   {
-    for (int j=0;j<=n-i-1;j++)
-     {
-        if(A[j]>A[j+1])
-        {
-            int temp= A[j];
-            A[j]=A[j+1];
-            A[j+1]=temp;
+void bubbleSort(int arr[], int size) {
+    for (int i = 0; i < size - 1; ++i) {
+        // The inner loop will compare adjacent elements and swap if needed
+        // The last i elements are already sorted, so we can ignore them
+        for (int j = 0; j < size - i - 1; ++j) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap the elements
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
         }
-     }
-   } 
+    }
 }
 
-void printArray(int* A, int n)
-{
-    for(int i=0;i<=n;i++)
-    {
-      printf("  %d ", A[i]);    
+int main() {
+    int arr[] = {64, 34, 25, 12, 22, 11, 90};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+    std::cout << "Original array: ";
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
     }
-    printf("\n");
-}
-int main()
-{
-    int A[]={23, 86, 11, 34, 73, 72, 52};
-    int n=7;
-    printf("UNSORTED ARRAY : ");
-     printArray(A,n);
-     bubbleSort(A,n);
-     printf("SORTED ARRAY : ");
-     printArray(A,n);
+    std::cout << std::endl;
+
+    bubbleSort(arr, size);
+
+    std::cout << "Sorted array: ";
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
     return 0;
 }
