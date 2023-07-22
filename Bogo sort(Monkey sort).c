@@ -3,15 +3,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-// Function to check if the array is sorted or not
-int isSorted(int arr[], int n) {
-    for (int i = 0; i < n - 1; i++) {
-        if (arr[i] > arr[i+1]) {
-            return 0;
-        }
-    }
-    return 1;
-}
+
 
 // Function to shuffle the array randomly
 void shuffle(int arr[], int n) {
