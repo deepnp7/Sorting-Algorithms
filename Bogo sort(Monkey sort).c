@@ -37,21 +37,3 @@ void printArray(int arr[], int n) {
     }
     printf("\n");
 }
-
-// Driver code
-int main() {
-    int arr[] = {3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5};
-    int n = sizeof(arr) / sizeof(arr[0]);
-
-    srand(time(NULL)); // Seed for the random number generator
-
-    printf("Original array: ");
-    printArray(arr, n);
-
-    bogoSort(arr, n);
-
-    printf("Sorted array: ");
-    printArray(arr, n);
-
-    return 0;
-}
