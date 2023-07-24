@@ -2,13 +2,7 @@
 
 
 
-  }
-
-  // modify the count array to store the position of each element in the sorted array
-  for (int i = 1; i <= max; i++) {
-    count[i] += count[i - 1];
-  }
-
+ 
   // create a sorted array and fill it using the count array
   int sorted[size];
   for (int i = 0; i < size; i++) {
