@@ -1,7 +1,2 @@
-#include <stdio.h>
-
-
-
-
 
  
