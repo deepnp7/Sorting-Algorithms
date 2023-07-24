@@ -3,12 +3,7 @@
 
 
  
-  // create a sorted array and fill it using the count array
-  int sorted[size];
-  for (int i = 0; i < size; i++) {
-    sorted[count[array[i]] - 1] = array[i];
-    count[array[i]]--;
-  }
+  
 
   // copy the sorted array back to the original array
   for (int i = 0; i < size; i++) {
