@@ -4,14 +4,7 @@
 
  
   
-
-  // copy the sorted array back to the original array
-  for (int i = 0; i < size; i++) {
-    array[i] = sorted[i];
-  }
-}
-
-// function to print an array
+on to print an array
 void print_array(int array[], int size) {
   for (int i = 0; i < size; i++) {
     printf("%d ", array[i]);
