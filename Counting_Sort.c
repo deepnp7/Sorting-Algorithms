@@ -1,15 +1,7 @@
 #include <stdio.h>
 
 
-  // create a count array to store the count of each element
-  int count[max + 1];
-  for (int i = 0; i <= max; i++) {
-    count[i] = 0;
-  }
 
-  // calculate the count of each element
-  for (int i = 0; i < size; i++) {
-    count[array[i]]++;
   }
 
   // modify the count array to store the position of each element in the sorted array
