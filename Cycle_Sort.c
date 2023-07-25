@@ -1,23 +1,4 @@
-#include <stdio.h>
 
-
-            pos = cycleStart;
-            for (int i = cycleStart+1; i < n; i++) {
-                if (arr[i] < item) {
-                    pos++;
-                }
-            }
-            while (item == arr[pos]) {
-                pos++;
-            }
-            if (item != arr[pos]) {
-                int temp = item;
-                item = arr[pos];
-                arr[pos] = temp;
-            }
-        }
-    }
-}
 
 int main() {
     int arr[] = {5, 2, 8, 9, 4, 3, 1, 0, 7, 6};
