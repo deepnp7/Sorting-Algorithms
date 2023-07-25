@@ -1,20 +1,6 @@
 #include <stdio.h>
 
-void cycleSort(int arr[], int n) 
 
-        if (pos == cycleStart) 
-        {e
-            continue;
-        }
-        while (item == arr[pos]) {
-            pos++;
-        }e
-        if (pos != cycleStart) {
-            int temp = item;
-            item = arr[pos];
-            arr[pos] = temp;
-        }
-        while (pos != cycleStart) {
             pos = cycleStart;
             for (int i = cycleStart+1; i < n; i++) {
                 if (arr[i] < item) {
