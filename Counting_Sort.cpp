@@ -7,7 +7,8 @@ void countingSort(int arr[], int size) {
 
     // Find the maximum element to determine the range of values
     int maxElement = arr[0];
-    for (int i = 1; i < size; ++i) {
+    for (int i = 1; i < size; ++i) 
+    {
         if (arr[i] > maxElement)
             maxElement = arr[i];
     }
