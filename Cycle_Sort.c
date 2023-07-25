@@ -3,12 +3,12 @@
 void cycleSort(int arr[], int n) 
 
         if (pos == cycleStart) 
-        {
+        {e
             continue;
         }
         while (item == arr[pos]) {
             pos++;
-        }
+        }e
         if (pos != cycleStart) {
             int temp = item;
             item = arr[pos];
