@@ -1,15 +1,5 @@
 
 
-    while (pos < n) {
-        if (pos == 0 || arr[pos] >= arr[pos-1]) {
-            pos++;
-        } else {
-            int temp = arr[pos];
-            arr[pos] = arr[pos-1];
-            arr[pos-1] = temp;
-            pos--;
-        }
-    }
 }
 
 int main() {
