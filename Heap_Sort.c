@@ -4,25 +4,6 @@
     int right = 2*i + 2;
     if (left < heap_size && heap[left] > heap[largest
     {
-        largest = left;
-    }
-    if (right < heap_size && heap[right] > heap[largest]) 
-    {
-        largest = right;
-    }
-    if (largest != i) 
-    {
-        swap(&heap[i], &heap[largest]);
-        max_heapify(heap, heap_size, largest);
-    }
-}
-
-void build_max_heap(int *heap, int heap_size) 
-{
-    for (int i = heap_size/2 - 1; i >= 0; i--) 
-     {
-        max_heapify(heap, heap_size, i);                                                                                                                 
-     }
 }
 
 void heap_to_array(int *heap, int heap_size, int *array) 
