@@ -1,15 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
-
-void swap(int *a, int *b) 
-{
-    int temp = *a;
-    *a = *b;
-    *b = temp;
-}
-
-void max_heapify(int *heap, int heap_size, int i)
-{
+#include 
     int largest = i;
     int left = 2*i + 1;
     int right = 2*i + 2;
