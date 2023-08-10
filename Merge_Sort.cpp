@@ -1,10 +1,4 @@
 
-void merge(int A[], int mid, int low, int high)
-{
-    int i, j, k, B[100];
-    i = low;
-    j = mid + 1;
-    k = low;
 
    while (i <= mid && j <= high)
     {
