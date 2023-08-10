@@ -1,14 +1,4 @@
 
-
-void printArray(int *A, int n)
-{
-    for (int i = 0; i < n; i++)
-    {
-        printf("%d ", A[i]);
-    }
-    printf("\n");
-}
-
 void merge(int A[], int mid, int low, int high)
 {
     int i, j, k, B[100];
