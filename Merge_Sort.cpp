@@ -2,21 +2,7 @@
 
  
     while (i <= mid)
-    {
-        B[k] = A[i];
-        k++;
-        i++;
-    }
-    while (j <= high)
-    {
-        B[k] = A[j];
-        k++;
-        j++;
-    }
-    for (int i = low; i <= high; i++)
-    {
-        A[i] = B[i];
-    }
+    
     
 }
 
