@@ -1,20 +1,6 @@
 
 
-   while (i <= mid && j <= high)
-    {
-        if (A[i] < A[j])
-        {
-            B[k] = A[i];
-            i++;
-            k++;
-        }
-        else
-        {
-            B[k] = A[j];
-            j++;
-            k++;
-        }
-    }
+ 
     while (i <= mid)
     {
         B[k] = A[i];
