@@ -1,17 +1,6 @@
 
 
- 
-    while (i <= mid)
-    
-    
-}
 
-void mergeSort(int A[], int low, int high){
-    int mid; 
-    if(low<high){
-        mid = (low + high) /2;
-        mergeSort(A, low, mid);
-        mergeSort(A, mid+1, high);
         merge(A, mid, low, high);
     }
 }
