@@ -11,6 +11,12 @@ void selectionSort(int arr[], int size) {
             }
         }
 
+        // Swap the found minimum element with the first element
+        std::swap(arr[i], arr[minIndex]);
+    }
+}
+
+
 int main() {
     int arr[] = {64, 34, 25, 12, 22, 11, 90};
     int size = sizeof(arr) / sizeof(arr[0]);
