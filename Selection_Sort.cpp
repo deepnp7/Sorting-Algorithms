@@ -10,7 +10,6 @@ void selectionSort(int arr[], int size) {
                 minIndex = j;
             }
         }
-
         // Swap the found minimum element with the first element
         std::swap(arr[i], arr[minIndex]);
     }
