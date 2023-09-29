@@ -1,22 +1,5 @@
 
-   // partition
-    
-    while (i <= j) {
-        while (arr[i] < pivot) {
-            i++;
-        }
-        while (arr[j] > pivot) {
-            j--;
-        }
-        if (i <= j) {
-            temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp;
-            i++;
-            j--;
-        }
-    }
-
+  
     // recursion
     if (left < j) {
         quickSort(arr, left, j);
