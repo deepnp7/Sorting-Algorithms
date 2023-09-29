@@ -1,9 +1,3 @@
-#include <stdio.h>
-
-void quickSort(int arr[], int left, int right) {
-    int i = left, j = right;
-    int temp;
-    int pivot = arr[(left + right) / 2];
 
    // partition
     
