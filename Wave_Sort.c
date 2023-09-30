@@ -2,6 +2,3 @@
 
 
 
-    printf("\nWave sorted array: ");
-
-}
