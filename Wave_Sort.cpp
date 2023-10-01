@@ -26,7 +26,7 @@ int main() {
     std::cout << std::endl;
 
     waveSort(arr, size);
- std::cout << "Wave sorted array: ";
+    std::cout << "Wave sorted array: ";
     for (int i = 0; i < size; ++i) {
         std::cout << arr[i] << " ";
     }
