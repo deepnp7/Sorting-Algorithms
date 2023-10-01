@@ -16,3 +16,8 @@ void waveSort(int arr[], int size) {
 }
 
 
+int main() {
+    int arr[] = {10, 5, 6, 3, 2, 20, 100, 80};
+    int size = sizeof(arr) / sizeof(arr[0]);
+
+
