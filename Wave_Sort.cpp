@@ -8,5 +8,11 @@ void waveSort(int arr[], int size) {
         if (i > 0 && arr[i] < arr[i - 1]) {
             std::swap(arr[i], arr[i - 1]);
         }
+        // If the current even element is smaller than the next element, swap them
+        if (i < size - 1 && arr[i] < arr[i + 1]) {
+            std::swap(arr[i], arr[i + 1]);
+        }
+    }
+}
 
 
