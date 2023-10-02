@@ -1,14 +1,4 @@
-#include <stdio.h>
-        for (int i = start; i < end; ++i) 
-        {
-            if (arr[i] > arr[i + 1]) 
-            {
-                int temp = arr[i];
-                arr[i] = arr[i + 1];
-                arr[i + 1] = temp;
-                swapped = true;
-            }
-        }
+
         if (!swapped) break;
         swapped = false;
         --end;
